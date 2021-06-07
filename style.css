@@ -1,0 +1,20 @@
+.popup {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+img {
+    padding-top: 5px;
+}
+
+#rtg {
+    position: relative;
+    display: block;
+    margin-top: inherit;
+    text-align: center;
+    background-color: white;
+}

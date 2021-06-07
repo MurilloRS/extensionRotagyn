@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "ROTAGYN",
+    "version": "0.5",
+    "browser_action":{
+        "default_icon": "img/icon.png",
+        "default_popup":"index.html"
+    },   
+    "content_scripts": [
+        {
+            
+            "matches": [
+                "https://us.mixtelematics.com/"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
